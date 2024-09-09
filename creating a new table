@@ -7,3 +7,13 @@ Create table Student_430122010031
 );
 
 table created
+
+Create table Student_430122010031
+(
+    Roll number(3) Primary key, jate kono attribute same na hoy
+    name varchar2(30),
+    dept varchar2(5),
+    marks number(4,2)
+);
+
+table created
