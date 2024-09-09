@@ -1,0 +1,4 @@
+insert into Student_430122010031
+values(1,'Rohan','CSE',50)
+
+// 1 row created.
