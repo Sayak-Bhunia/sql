@@ -1,0 +1,4 @@
+Alter table Student_430122010031
+add city varchar2(3);
+
+// Table altered.
