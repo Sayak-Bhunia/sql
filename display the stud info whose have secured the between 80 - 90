@@ -1,0 +1,2 @@
+Select name,marks from Student_430122010031
+where marks>=80 and marks<=90
