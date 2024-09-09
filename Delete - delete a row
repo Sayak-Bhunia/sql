@@ -1,0 +1,2 @@
+Delete from Student_430122010031
+where Roll = 1 and dept = 'CSE'
