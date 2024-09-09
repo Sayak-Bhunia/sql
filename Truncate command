@@ -1,0 +1,3 @@
+Truncate table Student_430122010031
+
+// deletes the entire table and creates a new empty one
