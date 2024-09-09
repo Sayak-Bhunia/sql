@@ -1,1 +1,2 @@
-Select dept from Student_430122010031
+Select dept from Student_430122010031 // repeat hbe sob datar dkhabe
+Select distinct dept from Student_430122010031 // sudhu unique gulo dkhabe
