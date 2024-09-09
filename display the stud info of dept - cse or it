@@ -1,1 +1,5 @@
+Select * from Student_430122010031
+where dept='CSE' or dept='IT'
 
+Select * from Student_430122010031
+where where dept in ('CSE','IT')
