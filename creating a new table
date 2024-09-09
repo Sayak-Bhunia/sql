@@ -5,3 +5,5 @@ Create table Student_430122010031
     dept varchar2(5),
     marks number(4,2)
 );
+
+table created
