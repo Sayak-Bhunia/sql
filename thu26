@@ -55,3 +55,6 @@ Select max(price),category from Book_430122010031 group by category having categ
 
 Select max(price),category from Book_430122010031 group by category having count(title) = 3
 
+Select ISBN,title,Price from Book_430122010031
+where price>(Select avg(price) from Book_430122010031)
+
