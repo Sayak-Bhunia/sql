@@ -58,3 +58,27 @@ Select max(price),category from Book_430122010031 group by category having count
 Select ISBN,title,Price from Book_430122010031
 where price>(Select avg(price) from Book_430122010031)
 
+display the name of the book with the 2nd highest price
+select title from Book_430122010031 where price = (select max(price) from (select * from Book_430122010031 where price not in(select max(price) from Book_430122010031)))
+
+cartesian product
+select title, price, name
+from Book_430122010031, Author_430122010031
+
+display title, book, price corresponding a name (natural join)
+select title, price, name
+from Book_430122010031, Author_430122010031
+where Book_430122010031.A_ID = Author_430122010031.A_ID
+
+display title, book, price corresponding a name and author  = kolkata and price>500
+select title, price, name
+from Book_430122010031, Author_430122010031
+where Book_430122010031.A_ID = Author_430122010031.A_ID and city = 'Kol' and price>500
+
+diplay the title of the book that in same price
+select c1.title
+from Book_430122010031 c1, Book_430122010031 c2
+where c1.price = c2.price
+
+
+
