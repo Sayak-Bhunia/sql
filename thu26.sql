@@ -80,5 +80,8 @@ select c1.title
 from Book_430122010031 c1, Book_430122010031 c2
 where c1.price = c2.price
 
-
+SELECT age, COUNT(*) as value_count
+FROM customers
+GROUP BY age
+HAVING COUNT(*) > 1;
 
